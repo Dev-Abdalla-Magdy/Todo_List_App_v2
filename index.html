@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo List App v2</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="empty-form-screen">
+    <div class="empty-window">
+      It's Empty.<br>Please, write something !
+      <span class="empty-btn-screen">Ok</span>
+    </div>
+  </div>
+
+  <div class="app">
+    <div class="head-content">
+      <h1 class="title">Todo List</h1>
+      <div class="add-tasks">
+        <input id="add-task-input" class="add-task-input" type="text" placeholder="Add Tasks Todo">
+        <button id="add-task-btn" class="add-task-btn">Add</button>
+      </div>
+    </div>
+    <div class="body-content">
+      <div class="tasks-list">
+        <div class="task">
+          <p class="task-info">
+            No Tasks To Do
+          </p>
+          <div class="control">
+            <span class="don">don</span>
+            <span class="del">del</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="foot-content">
+      <div class="total-tasks">
+        UnDone: <span></span>
+      </div>
+      <div class="completed-tasks">
+        Done: <span></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="del-screen">
+    <div class="del-window">
+      Are You Sure.<br>From Deleting This Task !
+      <span class="yes-btn-screen">Yes</span>
+      <span class="no-btn-screen">No</span>
+    </div>
+  </div> -->
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
